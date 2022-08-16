@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open sans';
+}
+
+main {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
+/* Nav-Tab */
+.nav-tab {
+    background-image: linear-gradient(to right , white , purple);
+}
+
+nav.nav-tab img {
+    width: 3rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.nav-tab .sign-in {
+    float: right;
+    margin: 1.5rem 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-tab .sign-in a {
+    color: #fff;
+}
+
+.nav-tab .sign-in a:hover {
+    color: black;
+    transition: all .5s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Nav-Main */
+
+.nav-main {
+    text-align: center;
+    background-color: orange;
+    padding: 1.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-family: 'Neucha', cursive;
+    font-weight: bold;
+}
+
+.nav-main a {
+    color: black;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.nav-main a:hover {
+    color:#fff;
+    transition: all .5s;
+
+}
+
+.tab {
+    color: red;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+.tab:hover {
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    transition: all .8s;
+}
+
+@media (max-width:767px) {
+    .nav-main a {
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+}
